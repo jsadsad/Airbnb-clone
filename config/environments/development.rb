@@ -78,4 +78,16 @@ Rails.application.configure do
     user_name: 'postmaster@sandbox1f1c9f8c35a04a5b93326aafd07ec2de.mailgun.org',
     password: 'f2459874e3643e304c0822d815adbc6b'
   }
+
+  config.paperclip_defaults = {
+    storage: :s3,
+    path: ':class/:attachment/:id/:filename',
+    s3_host_name: 's3-us-west-1.amazonaws.com',
+    s3_credentials: {
+      bucket: 'testpika',
+      access_key_id: 'AKIAJB32KP7EWDV4BEDQ',
+      secret_access_key: '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',
+      s3_region: 'us-west-1'
+    }
+  }
 end
