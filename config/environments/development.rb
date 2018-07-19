@@ -85,8 +85,8 @@ Rails.application.configure do
     s3_host_name: 's3-us-west-1.amazonaws.com',
     s3_credentials: {
       bucket: 'testpika',
-      access_key_id: 'AKIAJB32KP7EWDV4BEDQ',
-      secret_access_key: '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',
+      access_key_id: 'AKIAIIICYSG75EOWKXCQ',
+      secret_access_key: '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',
       s3_region: 'us-west-1'
     }
   }
